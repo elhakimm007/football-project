@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{amsmath, amsthm, amsfonts, amssymb, natbib}
+\usepackage[a4paper, margin=2.5cm]{geometry}
+
+\title{Assessment 2}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Introduction}
+This document demonstrates LaTeX capabilities.
+
+\subsection{Formatting Text}
+\textbf{Bold text}, \textit{italic text}.
+
+\section{Mathematical Notation}
+\begin{equation}
+    a^2 + b^2 = c^2
+\end{equation}
+
+\section{BibTeX}
+\cite{latex}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
